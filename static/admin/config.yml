@@ -53,6 +53,9 @@ collections:
         pattern: [/]
         hint: "Path must start with /"
       - { name: date, label: Date, widget: datetime }
+      - name: summary
+        label: Summary
+        widget: text
       - { name: title, label: Title }
       - label: Meta Description
         name: metaDescription
