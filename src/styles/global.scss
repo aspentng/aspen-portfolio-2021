@@ -107,7 +107,7 @@ a {
   text-transform: uppercase;
 }
 .hero-header {
-  padding: 0 0 64px;
+  padding: 0 0 80px;
   max-width: 980px;
 }
 .headline {
@@ -217,7 +217,7 @@ a {
 .card {
   display: grid;
   background-color: var(--card-bg);
-  border-radius: 9px;
+  border-radius: 4px;
   border: 1px solid var(--card-bdr);
   box-shadow: 0 0 30px var(--card-shadow);
   overflow: hidden;
@@ -307,7 +307,7 @@ and (min-width: 768px) {
 @media only screen 
   and (min-width: 1024px) {
   .grids {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .two-grids {
     display: grid;
