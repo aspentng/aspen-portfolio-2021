@@ -40,6 +40,8 @@ collections:
                 label: Description
                 default: ''
                 required: false
+    name: about
+    label: About
   - name: blog
     label: Blog
     folder: _data/blog
