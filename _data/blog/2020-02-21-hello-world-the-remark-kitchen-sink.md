@@ -2,7 +2,8 @@
 template: BlogPost
 path: /remark-kitchen-sink
 date: 2020-02-21T12:12:25.364Z
-title: 'Hello World: The remark Kitchen Sink'
+summary: This is the summary for "Hello World".
+title: 'Hello World: The New Edition'
 thumbnail: /assets/image-6.jpg
 ---
 # h1 Heading 8-)
