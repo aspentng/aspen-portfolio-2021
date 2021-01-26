@@ -1,4 +1,5 @@
-$font-family: "Rubik", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+$font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
 html,
 body {
@@ -6,7 +7,7 @@ body {
   padding: 0;
 }
 * {
-  margin-top: 0
+  margin-top: 0;
 }
 body.light {
   --primary-color: #381696;
@@ -34,9 +35,9 @@ body.dark {
   --featured-bg: #66578d;
   --featured-text: #fff;
   --secondary-color: #66578d;
-  --background: #0A041A;
-  --text-color: rgba(255,255,255,0.88);
-  --text-secondary-color: rgba(255,255,255,0.66);
+  --background: #0a041a;
+  --text-color: rgba(255, 255, 255, 0.88);
+  --text-secondary-color: rgba(255, 255, 255, 0.66);
   --site-header: var(--background);
   --card-bg: #181326;
   --card-bdr: #181326;
@@ -126,7 +127,7 @@ a {
   font-size: 16px;
   font-weight: 400;
   margin: 0 20px 0 0;
-  transition: background-color .3s linear;
+  transition: background-color 0.3s linear;
   &.-primary {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
@@ -150,7 +151,7 @@ a {
 }
 .post {
   padding: 0;
-  background:var(--background);
+  background: var(--background);
   color: var(--text-color);
   line-height: 1.5;
   > .blog-post-content {
@@ -162,51 +163,52 @@ a {
     margin-bottom: 0;
   }
   .post-title {
-    text-align: center;
-    margin: 0 0 0.5rem;
+    // text-align: center;
+    max-width: 768px;
+    margin: 2rem auto;
+    // margin: 0 0 0.5rem;
     line-height: 1.3;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .post-meta {
     margin-bottom: 32px;
     text-align: center;
   }
-  
 }
 .post-thumbnail {
-  text-align: center;
+  // text-align: center;
   min-height: 380px;
   //background-image: url('/assets/circles-light.png');
   background-color: var(--featured-bg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 18px;
-  margin-bottom: 36px;
+  border-radius: 8px;
+  margin-bottom: 40px;
   color: var(--featured-text);
   display: grid;
   align-content: center;
   position: relative;
-  padding: 18px;
+  padding: 16px;
   overflow: hidden;
-  &:before {
-    content: "";
-    background: rgba(0,0,0,0.4);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-  }
-  > * {
-    position: relative;
-    z-index: 2;
-  }
-  .post-meta {
-    color: rgba(255,255,255,0.8);
-    margin-bottom: 0;
-  }
+  // &:before {
+  //   content: "";
+  //   background: rgba(0,0,0,0.4);
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   z-index: 1;
+  // }
+  // > * {
+  //   position: relative;
+  //   z-index: 2;
+  // }
+  // .post-meta {
+  //   color: rgba(255,255,255,0.8);
+  //   margin-bottom: 0;
+  // }
 }
 .grids {
   display: grid;
@@ -219,7 +221,7 @@ a {
   background-color: var(--card-bg);
   border-radius: 4px;
   border: 1px solid var(--card-bdr);
-  box-shadow: 0 0 30px var(--card-shadow);
+  box-shadow: 0 0 24px var(--card-shadow);
   overflow: hidden;
   line-height: 1.5;
   &:hover .post-link {
@@ -235,11 +237,11 @@ a {
     margin: 0 0 0.5rem 0;
   }
   .post-title {
-    font-size: 1.2rem;
-    margin-bottom: 0.3rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
   }
   .post-meta {
-    font-weight: 100;
+    font-weight: 300;
     margin-bottom: 0;
   }
   .post-link {
@@ -248,7 +250,7 @@ a {
   }
 }
 .post-meta {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: var(--text-secondary-color);
 }
 .site-footer {
@@ -263,14 +265,14 @@ a {
   background-color: var(--contact-bg);
   padding: 32px;
   border: 1px solid var(--contact-bdr);
-  border-radius: 9px;
+  border-radius: 8px;
   label {
     display: block;
     margin-bottom: 0.5rem;
     color: var(--text-secondary-color);
   }
-  input[type=text],
-  input[type=email],
+  input[type="text"],
+  input[type="email"],
   textarea {
     appearance: none;
     border: 1px solid var(--card-shadow);
@@ -298,14 +300,12 @@ a {
   }
 }
 /* Portrait and Landscape */
-@media only screen 
-and (min-width: 768px) {
-.grids {
-  grid-template-columns: 1fr 1fr;
+@media only screen and (min-width: 768px) {
+  .grids {
+    grid-template-columns: 1fr 1fr;
+  }
 }
-}
-@media only screen 
-  and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .grids {
     grid-template-columns: 1fr 1fr;
   }
@@ -315,7 +315,6 @@ and (min-width: 768px) {
     grid-gap: 64px;
   }
 }
-
 
 // theme-changer
 .theme-changer {
@@ -341,25 +340,20 @@ body.light {
   box-sizing: border-box;
   position: relative;
   display: block;
-  transform: scale(var(--ggs,1));
+  transform: scale(var(--ggs, 1));
   width: 24px;
   height: 24px;
-  background:
-    linear-gradient(to bottom,
-        currentColor 4px,transparent 0)
-        no-repeat 5px -6px/2px 6px,
-    linear-gradient(to bottom,
-        currentColor 4px,transparent 0)
-        no-repeat 5px 14px/2px 6px,
-    linear-gradient(to bottom,
-        currentColor 4px,transparent 0)
-        no-repeat -8px 5px/6px 2px,
-    linear-gradient(to bottom,
-        currentColor 4px,transparent 0)
-        no-repeat 14px 5px/6px 2px;
+  background: linear-gradient(to bottom, currentColor 4px, transparent 0)
+      no-repeat 5px -6px/2px 6px,
+    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat 5px
+      14px/2px 6px,
+    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat -8px 5px/6px
+      2px,
+    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat 14px
+      5px/6px 2px;
   border-radius: 100px;
   box-shadow: inset 0 0 0 2px;
-  border: 6px solid transparent
+  border: 6px solid transparent;
 }
 .gg-sun::after,
 .gg-sun::before {
@@ -372,36 +366,36 @@ body.light {
   border-right: 4px solid;
   border-left: 4px solid;
   left: -6px;
-  top: 5px
+  top: 5px;
 }
 .gg-sun::before {
-  transform: rotate(-45deg)
+  transform: rotate(-45deg);
 }
 .gg-sun::after {
-  transform: rotate(45deg)
+  transform: rotate(45deg);
 }
 .gg-moon,
 .gg-moon::after {
-    display: block;
-    box-sizing: border-box;
-    border-radius: 50%
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%;
 }
 .gg-moon {
-    overflow: hidden;
-    position: relative;
-    transform: rotate(-135deg) scale(var(--ggs,1));
-    width: 20px;
-    height: 20px;
-    border: 2px solid;
-    border-bottom-color: transparent
+  overflow: hidden;
+  position: relative;
+  transform: rotate(-135deg) scale(var(--ggs, 1));
+  width: 20px;
+  height: 20px;
+  border: 2px solid;
+  border-bottom-color: transparent;
 }
 .gg-moon::after {
-    content: "";
-    position: absolute;
-    width: 12px;
-    height: 18px;
-    border: 2px solid transparent;
-    box-shadow: 0 0 0 2px;
-    top: 8px;
-    left: 2px
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 18px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 0 2px;
+  top: 8px;
+  left: 2px;
 }
