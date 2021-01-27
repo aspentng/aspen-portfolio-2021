@@ -10,7 +10,7 @@ body {
   margin-top: 0;
 }
 body.light {
-  --primary-color: #381696;
+  --primary-color: #f06292;
   --primary-text-color: #fff;
   --featured-bg: #493b8a;
   --featured-text: #fff;
@@ -30,7 +30,7 @@ body.light {
   --input-bg: var(--background);
 }
 body.dark {
-  --primary-color: #9984d5;
+  --primary-color: #f06292;
   --primary-text-color: #fff;
   --featured-bg: #66578d;
   --featured-text: #fff;
@@ -78,9 +78,9 @@ a {
   align-items: center;
   font-weight: 300;
   a {
-    color: #888;
+    color:#202020;
     text-decoration: none;
-    margin: 0 8px 0;
+    margin: 0 16px 0;
     &[aria-current] {
       color: var(--primary-color);
       font-weight: 700;

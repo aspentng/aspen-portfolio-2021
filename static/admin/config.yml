@@ -40,6 +40,15 @@ collections:
                 label: Description
                 default: ""
                 required: false
+  - name: about
+    label: About
+    create: true
+    folder: _data/about
+    fields:
+      - { name: title, label: Title }
+      - name: about
+        label: About
+        widget: text
   - name: blog
     label: Blog
     folder: _data/blog
