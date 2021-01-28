@@ -14,8 +14,9 @@ const AboutPage = ({ data: { site } }) => {
         />
       </Helmet>
       <div>
-        {site.siteMetadata.title}
-        {site.siteMetadata.about}
+        {/* {site.siteMetadata.title} */}
+        {/* {site.siteMetadata.about} */}
+        Test
       </div>
     </Layout>
   );

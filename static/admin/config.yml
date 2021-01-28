@@ -44,7 +44,13 @@ collections:
     label: About
     create: true
     folder: _data/about
+    create: true
     fields:
+      - name: path
+        label: Path
+        widget: string
+        pattern: [/]
+        hint: "Path must start with /"
       - { name: title, label: Title }
       - name: about
         label: About
