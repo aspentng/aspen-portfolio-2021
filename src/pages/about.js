@@ -7,17 +7,13 @@ const AboutPage = ({ data: { site } }) => {
   return (
     <Layout>
       <Helmet>
-        <title>About — {site.siteMetadata.title}</title>
+        <title>Contact — {site.siteMetadata.title}</title>
         <meta
           name="description"
-          content={"About page of " + site.siteMetadata.description}
+          content={"Contact page of " + site.siteMetadata.description}
         />
       </Helmet>
-      <div>
-        {/* {site.siteMetadata.title} */}
-        {/* {site.siteMetadata.about} */}
-        Test
-      </div>
+      <div>Test</div>
     </Layout>
   );
 };
