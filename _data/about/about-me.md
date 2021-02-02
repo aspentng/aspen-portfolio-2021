@@ -1,5 +1,5 @@
 ---
-About: test
-about: test testestestest
+title: About Me
+description: This is where I write about myself a little.
 ---
 
