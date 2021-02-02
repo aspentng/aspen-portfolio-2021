@@ -4,7 +4,6 @@
   "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
   "home": {
     "title": "Hello. I'm Aspen",
-    "description": "More exciting stuff coming soon."
-  },
-  "about": "Test Test"
+    "description": "More exciting stuff coming soon. test"
+  }
 }
