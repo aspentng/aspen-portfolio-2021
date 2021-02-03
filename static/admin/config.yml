@@ -40,6 +40,9 @@ collections:
                 label: Description
                 default: ""
                 required: false
+          - widget: string
+            name: about
+            label: About
   - name: blog
     label: Blog
     folder: _data/blog
