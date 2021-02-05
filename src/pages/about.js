@@ -64,14 +64,15 @@ export default () => (
             content={data.site.siteMetadata.description}
           />
         </Helmet>
-        <div>test</div>
-        <div>
-          this supposed to render description:
-          <Img fluid={data.picture.childImageSharp.fluid} alt="testing" />
-        </div>
-        <div>
-          render about:
-          {data.site.siteMetadata.about}
+        <div className="two-grids">
+          <div>
+            <Img fluid={data.picture.childImageSharp.fluid} alt="testing" />
+          </div>
+
+          <div>
+            testrender about:
+            {data.site.siteMetadata.about}
+          </div>
         </div>
       </Layout>
     )}
