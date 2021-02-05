@@ -34,14 +34,23 @@ import Helmet from "react-helmet";
 import Layout from "../components/layout";
 
 import { StaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
+
 export default () => (
   <StaticQuery
     query={graphql`
-      query AboutPageQuery {
+      query {
         site {
           siteMetadata {
             description
             about
+          }
+        }
+        picture: file(relativePath: { eq: "blog/image-1.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
           }
         }
       }
@@ -58,7 +67,7 @@ export default () => (
         <div>test</div>
         <div>
           this supposed to render description:
-          {data.site.siteMetadata.description}
+          <Img fluid={data.picture.childImageSharp.fluid} alt="testing" />
         </div>
         <div>
           render about:
@@ -68,3 +77,42 @@ export default () => (
     )}
   />
 );
+
+// import { Link, useStaticQuery, graphql } from "gatsby";
+// import Navigation from "../components/navigation";
+
+// export default ({ data }) => {
+//   const aboutPage = useStaticQuery(
+//     graphql`
+//       query {
+//         site {
+//           siteMetadata {
+//             title
+//             description
+//           }
+//         }
+//         picture: file(relativePath: { eq: "blog/image-1.jpg" }) {
+//           childImageSharp {
+//             fixed(width: 125, height: 125) {
+//               ...GatsbyImageSharpFixed
+//             }
+//           }
+//         }
+//       }
+//     `
+//   );
+//   return (
+//     <div className="site-wrapper">
+//       <header className="site-header">
+//         <div className="site-title">
+//           <Link to="/">{data.site.siteMetadata.title}</Link>
+//         </div>
+//         <Navigation />
+//       </header>
+//       <div>{aboutPage.site.siteMetadata.description}</div>
+//       <div>
+//         <Img fixed={aboutPage.picture.childImageSharp.fixed} />
+//       </div>
+//     </div>
+//   );
+// };

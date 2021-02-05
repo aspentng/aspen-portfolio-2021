@@ -8,6 +8,16 @@ module.exports = {
   /* Your site config here */
   siteMetadata: require("./site-meta-data.json"),
   plugins: [
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `assets`,
+        path: `${__dirname}/static/assets`,
+      },
+    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -19,18 +29,19 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [{
-          resolve: `gatsby-remark-prismjs`,
-          options: {
-            classPrefix: "language-",
-            inlineCodeMarker: null,
-            aliases: {},
-            showLineNumbers: false,
-            noInlineHighlight: false,
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false,
+            },
           },
-        },
-        {
-          resolve: 'gatsby-remark-emojis',
-        }],
+          {
+            resolve: 'gatsby-remark-emojis',
+          }
+        ],
       },
     },
     {
@@ -53,7 +64,7 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    `gatsby-plugin-sass`, 
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-dark-mode',

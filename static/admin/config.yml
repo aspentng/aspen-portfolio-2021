@@ -40,9 +40,14 @@ collections:
                 label: Description
                 default: ""
                 required: false
-          - widget: string
-            name: about
-            label: About
+          - label: Profile Picture
+            name: profilepicture
+            widget: image
+            required: false
+            media_library:
+              config:
+                multiple: false
+          - { name: about, label: About, widget: markdown }
   - name: blog
     label: Blog
     folder: _data/blog
