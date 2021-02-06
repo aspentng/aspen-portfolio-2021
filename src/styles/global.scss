@@ -290,11 +290,11 @@ a {
 .two-grids {
   display: grid;
   grid-gap: 32px;
-  &.-contact {
-    .post-thumbnail {
-      min-height: 240px !important;
-    }
-  }
+  // &.-contact {
+  //   .post-thumbnail {
+  //     min-height: 240px !important;
+  //   }
+  // }
 }
 /* Portrait and Landscape */
 @media only screen 

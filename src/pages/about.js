@@ -1,34 +1,3 @@
-// import React from "react";
-// import Helmet from "react-helmet";
-// import { graphql } from "gatsby";
-// import Layout from "../components/layout";
-
-// const AboutPage = ({ data: { site } }) => {
-//   return (
-//     <Layout>
-//       <Helmet>
-//         <title>Contact — {site.siteMetadata.title}</title>
-//         <meta
-//           name="description"
-//           content={"Contact page of " + site.siteMetadata.description}
-//         />
-//       </Helmet>
-//       <div>Test</div>
-//     </Layout>
-//   );
-// };
-// export default AboutPage;
-// export const pageQuery = graphql`
-//   query AboutPageQuery {
-//     site {
-//       siteMetadata {
-//         title
-//         description
-//       }
-//     }
-//   }
-// `;
-
 import React from "react";
 import Helmet from "react-helmet";
 import Layout from "../components/layout";
@@ -46,7 +15,7 @@ export default () => (
             about
           }
         }
-        picture: file(relativePath: { eq: "blog/image-1.jpg" }) {
+        picture: file(relativePath: { eq: "blog/test-image.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
@@ -78,42 +47,3 @@ export default () => (
     )}
   />
 );
-
-// import { Link, useStaticQuery, graphql } from "gatsby";
-// import Navigation from "../components/navigation";
-
-// export default ({ data }) => {
-//   const aboutPage = useStaticQuery(
-//     graphql`
-//       query {
-//         site {
-//           siteMetadata {
-//             title
-//             description
-//           }
-//         }
-//         picture: file(relativePath: { eq: "blog/image-1.jpg" }) {
-//           childImageSharp {
-//             fixed(width: 125, height: 125) {
-//               ...GatsbyImageSharpFixed
-//             }
-//           }
-//         }
-//       }
-//     `
-//   );
-//   return (
-//     <div className="site-wrapper">
-//       <header className="site-header">
-//         <div className="site-title">
-//           <Link to="/">{data.site.siteMetadata.title}</Link>
-//         </div>
-//         <Navigation />
-//       </header>
-//       <div>{aboutPage.site.siteMetadata.description}</div>
-//       <div>
-//         <Img fixed={aboutPage.picture.childImageSharp.fixed} />
-//       </div>
-//     </div>
-//   );
-// };
