@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Layout from "../components/layout";
+import HeroHeader from "../components/heroHeader";
 
 import { StaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
@@ -11,8 +12,10 @@ export default () => (
       query {
         site {
           siteMetadata {
-            description
             about
+            home {
+              title
+            }
           }
         }
         picture: file(relativePath: { eq: "blog/test-image.jpg" }) {
@@ -34,13 +37,15 @@ export default () => (
           />
         </Helmet>
         <div className="two-grids">
-          <div>
+          <div className="post-thumbnail">
             <Img fluid={data.picture.childImageSharp.fluid} alt="testing" />
           </div>
 
           <div>
-            testrender about:
-            {data.site.siteMetadata.about}
+            <div className="headline">{data.site.siteMetadata.home.title}</div>
+            <div className="primary-content">
+              {data.site.siteMetadata.about}
+            </div>
           </div>
         </div>
       </Layout>
