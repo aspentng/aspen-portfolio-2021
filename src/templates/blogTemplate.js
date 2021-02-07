@@ -28,6 +28,9 @@ export default function Template({
           <div>
             <h1 className="post-title">{frontmatter.title}</h1>
           </div>
+          <div className="post-about">
+            test
+          </div>
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
