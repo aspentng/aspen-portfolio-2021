@@ -29,9 +29,10 @@ export default function Template({
             <h1 className="post-title">{frontmatter.title}</h1>
           </div>
           <div className="post-about">
-            {frontmatter.duration}
-            {frontmatter.projectabout}
-            {frontmatter.roles}
+            <div>Duration: {frontmatter.duration}</div>
+            <div>Roles: {frontmatter.roles}</div>
+            <div>About: {frontmatter.projectabout}</div>
+            
           </div>
           <div
             className="blog-post-content"
