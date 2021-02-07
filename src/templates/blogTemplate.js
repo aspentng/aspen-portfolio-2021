@@ -29,7 +29,9 @@ export default function Template({
             <h1 className="post-title">{frontmatter.title}</h1>
           </div>
           <div className="post-about">
-            test
+            {frontmatter.duration}
+            {frontmatter.projectabout}
+            {frontmatter.roles}
           </div>
           <div
             className="blog-post-content"
@@ -54,6 +56,9 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        duration
+        projectabout
+        roles
         thumbnail
         metaDescription
       }
