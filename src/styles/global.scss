@@ -11,7 +11,7 @@ body {
 }
 body.light {
   --primary-color: #ff8a65;
-  --primary-text-color: #fff;
+  --primary-text-color: #000;
   --featured-bg: #c75b39;
   --featured-text: #fff;
   --secondary-color: #10072b;
@@ -173,12 +173,13 @@ a {
     font-size: 2.5rem;
   }
   .post-about {
-    padding: 16px;
+    padding: 24px;
     max-width: 768px;
     margin: 3rem auto;
     line-height: 1.5;
-    background: grey;
+    border: 2px solid var(--primary-color);
     border-radius: 8px;
+    color: var(--text-color);
   }
   .post-meta {
     margin-bottom: 32px;
