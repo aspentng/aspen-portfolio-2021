@@ -30,12 +30,31 @@ export default function Template({
           </div>
           <div className="post-about">
             <div>
-              Duration: <br />
+              TIMELINE <br />
               {frontmatter.duration}
             </div>
-            <div>Roles: {frontmatter.roles}</div>
-            <div>About: {frontmatter.projectabout}</div>
+            <div>ROLE {frontmatter.roles}</div>
+            <div>ABOUT {frontmatter.projectabout}</div>
           </div>
+          <div className="post-about">
+            <table>
+              <tbody>
+                <tr>
+                  <td className="table-left">TIMELINE</td>
+                  <td>{frontmatter.duration}</td>
+                </tr>
+                <tr>
+                  <td className="table-left">ROLE</td>
+                  <td>{frontmatter.roles}</td>
+                </tr>
+                <tr>
+                  <td className="table-left">ABOUT</td>
+                  <td>{frontmatter.projectabout}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}

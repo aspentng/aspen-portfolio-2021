@@ -11,7 +11,7 @@ body {
 }
 body.light {
   --primary-color: #ff8a65;
-  --primary-text-color: #000;
+  --primary-text-color: #263238;
   --featured-bg: #c75b39;
   --featured-text: #fff;
   --secondary-color: #10072b;
@@ -31,12 +31,11 @@ body.light {
 }
 body.dark {
   --primary-color: #ffb74d;
-  --primary-text-color: #fff;
+  --primary-text-color: rgba(255, 255, 255, 0.89);
   --featured-bg: #c88719;
   --featured-text: #fff;
   --secondary-color: #66578d;
   --background: #0a041a;
-  --text-color: rgba(255, 255, 255, 0.88);
   --text-secondary-color: rgba(255, 255, 255, 0.66);
   --site-header: var(--background);
   --card-bg: #181326;
@@ -56,7 +55,7 @@ body {
   font-family: $font-family;
   border-top: 8px solid var(--primary-color);
   background-color: var(--background);
-  color: var(--text-color);
+  color: var(--primary-text-color);
 }
 a {
   color: var(--primary-color);
@@ -156,7 +155,6 @@ a {
 .post {
   padding: 0;
   background: var(--background);
-  color: var(--text-color);
   line-height: 1.5;
   > .blog-post-content {
     max-width: 768px;
@@ -173,14 +171,22 @@ a {
     font-size: 2.5rem;
   }
   .post-about {
-    padding: 24px;
+    padding: 16px;
     max-width: 768px;
     margin: 3rem auto;
     line-height: 1.5;
     border: 2px solid var(--primary-color);
     border-radius: 8px;
-    color: var(--text-color);
+    > table tbody td {
+      line-height: 1.5;
+      vertical-align: top;
+      padding: 8px;
+    }
+    > table tbody td.table-left {
+      padding-right: 16px;
+    }
   }
+
   .post-meta {
     margin-bottom: 32px;
     text-align: center;
@@ -241,7 +247,7 @@ a {
     margin-bottom: 0;
   }
   .post-link {
-    color: var(--text-color);
+    color: var(--primary-text-color);
     text-decoration: none;
   }
 }
