@@ -47,11 +47,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Delog GatbsyJS Starter`,
-        short_name: `Delog`,
+        name: `Aspen`,
+        short_name: `Aspen`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#381696`,
+        theme_color: `#ff8a65`,
         display: `standalone`,
         icon: "src/images/icon.png",
       },

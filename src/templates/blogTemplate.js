@@ -29,14 +29,6 @@ export default function Template({
             <h1 className="post-title">{frontmatter.title}</h1>
           </div>
           <div className="post-about">
-            <div>
-              TIMELINE <br />
-              {frontmatter.duration}
-            </div>
-            <div>ROLE {frontmatter.roles}</div>
-            <div>ABOUT {frontmatter.projectabout}</div>
-          </div>
-          <div className="post-about">
             <table>
               <tbody>
                 <tr>
