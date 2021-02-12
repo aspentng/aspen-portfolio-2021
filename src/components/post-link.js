@@ -1,12 +1,17 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 
 const PostLink = ({ post }) => (
-  <article className="card ">
+  <article className="card">
     <Link to={post.frontmatter.path}>
-      {!!post.frontmatter.thumbnail && (
-        <img src={post.frontmatter.thumbnail} alt={post.frontmatter.title + "- Featured Shot"} />
-      )}
+      <div className="card-photo">
+        {!!post.frontmatter.thumbnail && (
+          <img
+            src={post.frontmatter.thumbnail}
+            alt={post.frontmatter.title + "- Featured Shot"}
+          />
+        )}
+      </div>
     </Link>
     <header>
       <h2 className="post-title">
@@ -17,5 +22,5 @@ const PostLink = ({ post }) => (
       <div className="post-meta">{post.frontmatter.summary}</div>
     </header>
   </article>
-)
-export default PostLink
+);
+export default PostLink;
