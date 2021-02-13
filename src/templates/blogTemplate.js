@@ -20,10 +20,16 @@ export default function Template({
       <div className="blog-post-container">
         <article className="post">
           {!!frontmatter.thumbnail && (
-            <div
-              className="post-thumbnail"
-              style={{ backgroundImage: `url(${frontmatter.thumbnail})` }}
-            ></div>
+            // <div
+            //   className="post-thumbnail"
+            //   style={{ backgroundImage: `url(${frontmatter.thumbnail})` }}
+            // />
+            <div className="post-thumbnail">
+              <img
+                src={frontmatter.thumbnail}
+                alt={frontmatter.title + "- Featured Shot"}
+              />
+            </div>
           )}
           <div>
             <h1 className="post-title">{frontmatter.title}</h1>

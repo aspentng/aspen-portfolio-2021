@@ -193,15 +193,14 @@ a {
   }
 }
 .post-thumbnail {
-  text-align: center;
-  min-height: 480px;
+  width: 100%;
+  height: auto;
   background-color: var(--featured-bg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 8px;
   margin-bottom: 40px;
-  color: var(--featured-text);
   display: grid;
   align-content: center;
   position: relative;
@@ -231,6 +230,13 @@ a {
   }
   > a img {
     display: block;
+    text-align: center;
+    width: 100%;
+    background-color: var(--featured-bg);
+    display: grid;
+    align-content: center;
+    position: relative;
+    overflow: hidden;
   }
   > header {
     padding: 24px;
