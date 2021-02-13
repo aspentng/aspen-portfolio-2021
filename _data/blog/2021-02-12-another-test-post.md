@@ -11,7 +11,7 @@ projectabout: This is another paragraph to summarize what this project is about.
   time. This is another paragraph to summarize what this project is about. I
   probably want to write this longer so I'm gonna copy and past this one more
   time.
-thumbnail: /assets/morgane-le-breton-t8o2mn4-rey-unsplash.jpg
+thumbnail: /assets/jonatan-pie-d7zbapeuxgc-unsplash.jpg
 ---
 # Are we ready?
 
