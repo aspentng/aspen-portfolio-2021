@@ -41,9 +41,14 @@ export default () => (
 
           <div>
             <div className="headline">{data.site.siteMetadata.home.title}</div>
-            <div className="primary-content">
-              {data.site.siteMetadata.about}
-            </div>
+            <div
+              className="primary-content"
+              dangerouslySetInnerHTML={{
+                __html: data.site.siteMetadata.about,
+              }}
+            />
+            {/* {data.site.siteMetadata.about} */}
+            {/* </div> */}
           </div>
         </div>
       </Layout>
