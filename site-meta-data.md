@@ -19,5 +19,5 @@ about: >-
   I was born and raised in sunny Singapore before going to the University of Illinois at Urbana-Champaign in the United States (where winters are harsh) to study industrial design. 
 
 
-  I made a 180° pivot from a science-based education (pre-college) to graduating with a fine arts degree, then became a product designer in tech.
+  I made a 180-deg pivot from a science-based education (pre-college) to graduating with a fine arts degree, then became a product designer in tech.
 ---
