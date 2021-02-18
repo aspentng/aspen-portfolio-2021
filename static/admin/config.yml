@@ -11,7 +11,7 @@ collections:
     files:
       - name: config
         label: Config
-        file: site-meta-data.md
+        file: site-meta-data.json
         fields:
           - widget: string
             name: title
