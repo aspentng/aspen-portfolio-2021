@@ -69,9 +69,9 @@ export default () => (
               <p>
                 My education background in both the arts and sciences, and an
                 early exposure to tech, were pivotal in helping me become a
-                product designer in tech. These circumstances helped me find
-                balance between functionality/scalability and aesthetics when
-                thinking about or designing products.
+                product designer in tech. These experiences help me to better
+                find balance between functionality/scalability and aesthetics
+                when thinking about or designing products.
               </p>
               {/* <p>
                 Outside of work, I listen to tech and design podcasts, watch
