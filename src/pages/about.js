@@ -60,15 +60,18 @@ export default () => (
               <p>
                 Born and raised in Singapore, I went through a primarily
                 science-based education, but decided to pursue a fine arts
-                degree in industrial design at the University of Illinois at
-                Urbana-Champaign in the United States.
+                degree in industrial design at the{" "}
+                <Link to="https://illinois.edu/">
+                  University of Illinois at Urbana-Champaign
+                </Link>{" "}
+                in the United States.
               </p>
               <p>
                 My education background in both the arts and sciences, and an
                 early exposure to tech, were pivotal in helping me become a
                 product designer in tech. These circumstances helped me find
                 balance between functionality/scalability and aesthetics when
-                thinking or designing products.
+                thinking about or designing products.
               </p>
               {/* <p>
                 Outside of work, I listen to tech and design podcasts, watch
