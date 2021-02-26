@@ -53,8 +53,9 @@ export default () => (
                 <Link to="https://www.hive.tech.gov.sg/">
                   Government Technology Agency, Singapore
                 </Link>{" "}
-                working on Singpass, the nation's digital identity platform for
-                its citizens.
+                working on{" "}
+                <Link to="https://app.singpass.gov.sg/">Singpass App</Link>, the
+                nation's digital identity platform for its citizens.
               </p>
               <p>
                 Born and raised in Singapore, I went through a primarily
