@@ -38,7 +38,11 @@ My personal future plans for the design system is to advocate for it on a princi
 
 \-
 
+
+
 # Process
+
+At the start of this project, I set an underlying principle for the design system: this system will be in beta for quite a while, and since the team don't have dedicated design system designers, it should be structured to allow for anyone to contribute easily.
 
 (1) Did an audit on old sketch files, and moved relevant material into Figma.
 
