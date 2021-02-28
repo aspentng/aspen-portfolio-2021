@@ -47,9 +47,7 @@ Through research, I found that (1) maximum speed, (2) sudden increase or decreas
 
 ### Feature #1: Vehicle Actions + Emergency Stop
 
-![mockups showing vehicle actions and emergency button](/assets/home-screen.png)
-
-![](/assets/home-screen-1.png)
+![mockups showing vehicle actions and emergency button](/assets/self-driving_home-screen.png)
 
 The vehicle's actions are displayed on the top of the screen. There is also an emergency stop button. This button requires a swipe (rather than a typical tap) to prevent accidental triggers. This opens up a screen that now requires a simultaneous swiping of 2 buttons to stop the vehicle. *\[note: accessibility was not full considered for this design, and will iterate on this in further exploration]*
 
