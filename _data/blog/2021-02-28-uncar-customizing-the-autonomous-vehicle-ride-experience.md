@@ -4,7 +4,7 @@ path: /self-driving
 date: 2021-01-30T02:51:52.389Z
 summary: An app that helps to drive adoption of the inevitable rise of
   self-driving vehicles.
-title: Uncar - Customizing the Autonomous Vehicle Ride Experience
+title: Customizing the Autonomous Vehicle Ride Experience
 duration: February 2020 - May 2020 (3 months)
 roles: Product Designer, Design Researcher
 projectabout: With the imminent rise of autonomous vehicles, how can we help
