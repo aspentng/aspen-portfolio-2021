@@ -10,7 +10,7 @@ body {
 * {
   margin-top: 0;
 }
-h1, h2 {
+h1, h2, h3 {
   margin-top: 32px;
   margin-bottom: 8px;
 }
@@ -67,6 +67,7 @@ a {
   text-decoration: none;
   &:hover {
     text-decoration: underline;
+    text-underline-position: under;
   }
 }
 .site-wrapper {
