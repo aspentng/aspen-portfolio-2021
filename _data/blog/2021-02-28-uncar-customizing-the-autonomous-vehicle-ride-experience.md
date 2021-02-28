@@ -6,7 +6,7 @@ summary: An app that helps to drive adoption of the inevitable rise of
   self-driving vehicles.
 title: Customizing the Autonomous Vehicle Ride Experience
 duration: February 2020 - May 2020 (3 months)
-roles: Product Designer, Design Researcher
+roles: Product designer, Design researcher
 projectabout: With the imminent rise of autonomous vehicles, how can we help
   skeptics embrace this new mode of transportation?
 ---
