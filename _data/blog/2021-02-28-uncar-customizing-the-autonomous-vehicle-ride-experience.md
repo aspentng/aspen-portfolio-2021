@@ -49,9 +49,17 @@ Through research, I found that (1) maximum speed, (2) sudden increase or decreas
 
 ![mockups showing vehicle actions and emergency button](/assets/self-driving_home-screen.png)
 
-The vehicle's actions are displayed on the top of the screen. There is also an emergency stop button. This button requires a swipe (rather than a typical tap) to prevent accidental triggers. This opens up a screen that now requires a simultaneous swiping of 2 buttons to stop the vehicle. *\[note: accessibility was not full considered for this design, and will iterate on this in further exploration]*
+The vehicle's actions are displayed on the top of the screen. There is also an emergency stop button. This button requires a swipe (rather than a typical tap) to prevent accidental triggers. This opens up a screen that now requires a simultaneous swiping of 2 buttons to stop the vehicle. 
+
+![mockup of screen with 2 sliders](/assets/self-driving_two-button-swipe.png)
+
+*\[note: accessibility was not full considered for this design, and will iterate on this in further exploration]*
+
+
 
 ### Feature #2: Customizing Maximum Speed
+
+![](/assets/max-speed.gif)
 
 Here (and the rest of the customizations), I tried to use micro interaction and motion design to indicate immediate feedback by the app and the vehicle. This provides an additional level of assurance, which directly contributes to building trust.
 
