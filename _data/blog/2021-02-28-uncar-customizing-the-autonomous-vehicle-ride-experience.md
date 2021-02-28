@@ -9,6 +9,7 @@ duration: February 2020 - May 2020 (3 months)
 roles: Product designer, Design researcher
 projectabout: With the imminent rise of autonomous vehicles, how can we help
   skeptics embrace this new mode of transportation?
+thumbnail: /assets/self-driving_hero-image.png
 ---
 # Overview
 
