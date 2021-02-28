@@ -35,6 +35,8 @@ Users want to maintain a level of control or feel like they are able to interven
 
 # Proposed Solution
 
+![image showing 4 screenshots of proposed design](/assets/self-driving_proposed-solution.png)
+
 An app that allows first-time riders (or seasoned riders) to customize their autonomous vehicle experience by setting certain preferences. 
 
 In reality, when these vehicles are approved to operate on the streets, they will operate within a set of safe and fixed settings, and there is nothing to worry about. This app puts a small amount of control in the hands of the users to help them ease into this entirely new experience.
