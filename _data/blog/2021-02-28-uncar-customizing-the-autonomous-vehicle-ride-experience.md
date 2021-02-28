@@ -54,6 +54,6 @@ Here (and the rest of the customizations), I tried to use micro interaction and 
 
 Braking was one of the This setting was designed for users to choose their preferences based on their feelings. The interface was inspired by the gear shift in vehicles today.
 
-## Feature #4: Following Distance
+### Feature #4: Following Distance
 
 It is difficult to set a comfortable following distance in absolute units of measurement, as such, the distance is visually represented in terms of car lengths. This was inspired by my lessons on defensive driving in Singapore.
