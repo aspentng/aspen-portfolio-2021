@@ -51,22 +51,24 @@ Through research, I found that (1) maximum speed, (2) sudden increase or decreas
 
 The vehicle's actions are displayed on the top of the screen. There is also an emergency stop button. This button requires a swipe (rather than a typical tap) to prevent accidental triggers. This opens up a screen that now requires a simultaneous swiping of 2 buttons to stop the vehicle. 
 
-![mockup of screen with 2 sliders](/assets/self-driving_two-button-swipe.png)
+![mockup of screen with 2 sliders](/assets/self-driving_sliders.png)
 
 *\[note: accessibility was not full considered for this design, and will iterate on this in further exploration]*
 
-
-
 ### Feature #2: Customizing Maximum Speed
 
-![](/assets/max-speed.gif)
+![gif showing how the interaction to set maximum speed looks](/assets/self-driving_max-speed.gif)
 
 Here (and the rest of the customizations), I tried to use micro interaction and motion design to indicate immediate feedback by the app and the vehicle. This provides an additional level of assurance, which directly contributes to building trust.
 
 ### Feature #3: Acceleration & Braking
 
+![gif showing how the interactions to set comfort levels for acceleration and braking look](/assets/self-driving_braking-acceleration.gif)
+
 Braking was one of the This setting was designed for users to choose their preferences based on their feelings. The interface was inspired by the gear shift in vehicles today.
 
 ### Feature #4: Following Distance
+
+![gif showing how the interactions to set following distances looks](/assets/self-driving_following-distance.gif)
 
 It is difficult to set a comfortable following distance in absolute units of measurement, as such, the distance is visually represented in terms of car lengths. This was inspired by my lessons on defensive driving in Singapore.
