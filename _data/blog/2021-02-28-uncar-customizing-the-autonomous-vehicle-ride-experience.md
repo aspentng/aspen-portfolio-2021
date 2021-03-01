@@ -19,6 +19,10 @@ How might we help the general public to curb their skepticism and fear of riding
 
 Assumption/Constraint: Due to the timeframe of the project, I made the intentional decision to not involve the physical aspects of the car (e.g. did not explore what it'll be like to have a screen in the vehicle).
 
+[You can read the full case study here!](https://uofi.app.box.com/s/3ghovmtfyvjctg80dtc35u4sawiynyhd)
+
+
+
 # Approach
 
 (1) Did research to understand the landscape of the self-driving vehicle space, including chatting with professors, engineers and designers from Waymo.
@@ -72,3 +76,19 @@ Braking was one of the This setting was designed for users to choose their prefe
 ![gif showing how the interactions to set following distances looks](/assets/self-driving_following-distance.gif)
 
 It is difficult to set a comfortable following distance in absolute units of measurement, as such, the distance is visually represented in terms of car lengths. This was inspired by my lessons on defensive driving in Singapore.
+
+
+
+\-
+
+# Reflections / Next Steps
+
+I loved working on this project because the problem felt so real yet distant (which is the generally the mixed sentiments of people who I spoke to for this project), and a huge part of this project was about first convincing myself of the viability of autonomous vehicles. 
+
+I would loved to carry out some level of user testing and simulation to further validate my concept. I was in contact with a few people in this space and made plans to visit their offices, but these plans never materialized because of the pandemic.
+
+Looking at this from another lens, there is a lot of potential in how the form of both the exterior and interior of the vehicle can affect the trust and adoption of vehicles (I gathered some data during user research, but never used it for this chosen concept)
+
+If you're someone working in the autonomous vehicle space or a potential future user of the technology, I would love to have a chat about this!
+
+[Read the full case study here](https://uofi.app.box.com/s/3ghovmtfyvjctg80dtc35u4sawiynyhd).
