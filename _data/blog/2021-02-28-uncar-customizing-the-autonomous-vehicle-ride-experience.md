@@ -29,7 +29,7 @@ Assumption/Constraint: Due to the timeframe of the project, I made the intention
 
 (4) Conducted informal user interviews to learn about parallel experiences (e.g. ride sharing or buying a used vehicle) and their general sentiments about self-driving.
 
-# Overarching Principle
+# Overarching Principle (synthesized from research)
 
 Users want to maintain a level of control or feel like they are able to intervene in the situation when they feel the need to (this can be for their personal needs).
 
