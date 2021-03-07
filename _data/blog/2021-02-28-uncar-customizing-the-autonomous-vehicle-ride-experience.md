@@ -18,7 +18,7 @@ With the imminent rise of autonomous vehicles, how might we help the general pub
 
 Assumption/Constraint: Due to the timeframe of the project, I made the intentional decision to not involve the physical aspects of the car (e.g. did not explore what it'll be like to have a screen in the vehicle).
 
- → [Read the full case study here.](https://uofi.app.box.com/s/3ghovmtfyvjctg80dtc35u4sawiynyhd) &rarr;
+[Read the full case study here &rarr;](https://uofi.app.box.com/s/3ghovmtfyvjctg80dtc35u4sawiynyhd)
 
 # Approach
 
