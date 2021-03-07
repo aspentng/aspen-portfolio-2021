@@ -10,6 +10,7 @@ projectabout: |-
 
 
   Unfortunately, this project is protected by a NDA.
+metaDescription: Primary designer on the Singpass App design system.
 ---
 I initiated and led this project to build a design system with robust foundation to support the growing team, and allow designers to contribute to it.
 
