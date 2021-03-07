@@ -8,10 +8,6 @@ summary: >-
 title: Customizing the Autonomous Vehicle Ride Experience
 duration: February 2020 - May 2020 (3 months)
 roles: 'Product designer, Design researcher'
-projectabout: '[to delete]'
-metaDescription: >-
-  An app that helps to drive adoption of the inevitable rise of self-driving
-  vehicles.
 thumbnail: /assets/self-driving_hero-image.png
 ---
 # Overview
@@ -36,7 +32,7 @@ Assumption/Constraint: Due to the timeframe of the project, I made the intention
 
 # Overarching Principle (synthesized from research)
 
-Users want to maintain a level of control or feel like they are able to intervene in the situation when they feel the need to (this can be for their personal needs).
+Users want to maintain a level of control or feel like they are able to intervene in the situation when they feel the need to.
 
 # Proposed Solution
 
