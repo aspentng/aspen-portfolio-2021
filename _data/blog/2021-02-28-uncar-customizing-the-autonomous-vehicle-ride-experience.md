@@ -86,4 +86,4 @@ Looking at this from another lens, there is a lot of potential in how the form o
 
 If you're someone working in the autonomous vehicle space or a potential future user of the technology, I would love to have a chat about this!
 
- → [Read the full case study here.](https://uofi.app.box.com/s/3ghovmtfyvjctg80dtc35u4sawiynyhd)
+[Read the full case study here &rarr;](https://uofi.app.box.com/s/3ghovmtfyvjctg80dtc35u4sawiynyhd)
