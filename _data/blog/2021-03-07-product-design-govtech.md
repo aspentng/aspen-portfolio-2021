@@ -6,9 +6,7 @@ summary: A summary of my work at GovTech so far.
 title: Product Design @ GovTech
 duration: September 2020 - Present
 roles: 'UX Designer, UI Designer'
-projectabout: >-
-  Much of my work is still under wraps & NDA, but here's a short summary of some
-  of achievements so far.
+projectabout: '[delete later]'
 ---
 Most of the projects that I'm currently undertaking are still ongoing and can't be shared publicly. I'll be happy to chat more about them, so please feel free to reach out.
 
