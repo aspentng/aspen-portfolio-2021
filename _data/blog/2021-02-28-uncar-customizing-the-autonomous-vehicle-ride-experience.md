@@ -9,6 +9,9 @@ title: Customizing the Autonomous Vehicle Ride Experience
 duration: February 2020 - May 2020 (3 months)
 roles: 'Product designer, Design researcher'
 projectabout: '[to delete]'
+metaDescription: >-
+  An app that helps to drive adoption of the inevitable rise of self-driving
+  vehicles.
 thumbnail: /assets/self-driving_hero-image.png
 ---
 # Overview
