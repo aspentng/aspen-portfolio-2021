@@ -64,10 +64,10 @@ collections:
       - name: roles
         label: Roles
         widget: string
-      - label: Meta Description
-        name: metaDescription
-        widget: text
-        required: false
+      # - label: Meta Description
+      #   name: metaDescription
+      #   widget: text
+      #   required: false
       - label: Featured Image
         name: thumbnail
         widget: image
