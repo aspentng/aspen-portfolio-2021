@@ -13,7 +13,7 @@ In the meantime, here's some of my highlights:
 
 (1) Played a major role in UX and UI bug fixes for the Singpass app, following the Singpass rebrand. Worked closely with the engineering team to provide design clarification to ensure that users' transition to the new look will be seamless.
 
-(2) Initiated and led the creation of a new design system, and advocated for it to be adopted by all designers working on the Singpass app, regardless of their teams. You can [read more here &rarr;](/singpass-design-system)
+(2) Initiated and led the creation of a new design system, and advocated for it to be adopted by all designers working on the Singpass app, regardless of their teams. You can [read more here](/singpass-design-system).
 
 (3) Currently supporting the growth and providing guidance to a service designer and a senior service designer who are learning/transition into the field of interaction design.
 
