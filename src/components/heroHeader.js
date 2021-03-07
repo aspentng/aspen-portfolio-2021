@@ -17,13 +17,9 @@ export default () => (
     render={(data) => (
       <div className="hero-header grids">
         <div className="headline">{data.site.siteMetadata.home.title}</div>
-        {/* <div 
-          className="primary-content" 
-          dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.home.description}}
-        /> */}
         <div>
           <p>
-            Product designer at{" "}
+            Product designer at
             <Link to="https://www.hive.tech.gov.sg/">
               Government Technology Agency, Singapore
             </Link>
@@ -32,9 +28,9 @@ export default () => (
             technologies.
           </p>
           <p>
-            Previously, UX designer at{" "}
+            Previously, UX designer at
             <Link to="https://2020.hackillinois.org/">HackIllinois</Link> // UX
-            intern at{" "}
+            intern at
             <Link to="https://innovation.cargill.com/">Cargill, Inc.</Link>
           </p>
         </div>

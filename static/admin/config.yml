@@ -64,9 +64,6 @@ collections:
       - name: roles
         label: Roles
         widget: string
-      - name: projectabout
-        label: Project About
-        widget: text
       - label: Meta Description
         name: metaDescription
         widget: text
