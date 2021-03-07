@@ -54,9 +54,10 @@ collections:
         pattern: [/, "Path must start with /"]
         hint: "Path must start with /"
       - { name: date, label: Date, widget: datetime }
-      - name: summary
-        label: Summary
-        widget: text
+      # - name: summary
+      #   label: Summary
+      #   widget: text
+        
       - { name: title, label: Title }
       - name: duration
         label: Duration

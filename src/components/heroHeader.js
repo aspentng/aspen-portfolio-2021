@@ -19,18 +19,18 @@ export default () => (
         <div className="headline">{data.site.siteMetadata.home.title}</div>
         <div>
           <p>
-            Product designer at
+            Product designer at{" "}
             <Link to="https://www.hive.tech.gov.sg/">
               Government Technology Agency, Singapore
-            </Link>
+            </Link>{" "}
             . Currently using design as a tool to empower those next in line to
             do their best work, and to build trust between users and emerging
             technologies.
           </p>
           <p>
-            Previously, UX designer at
+            Previously, UX designer at{" "}
             <Link to="https://2020.hackillinois.org/">HackIllinois</Link> // UX
-            intern at
+            design intern at{" "}
             <Link to="https://innovation.cargill.com/">Cargill, Inc.</Link>
           </p>
         </div>

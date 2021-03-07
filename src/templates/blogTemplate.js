@@ -45,10 +45,6 @@ export default function Template({
                   <td className="table-left">ROLE</td>
                   <td>{frontmatter.roles}</td>
                 </tr>
-                <tr>
-                  <td className="table-left">ABOUT</td>
-                  <td>{frontmatter.projectabout}</td>
-                </tr>
               </tbody>
             </table>
           </div>
