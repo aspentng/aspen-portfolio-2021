@@ -2,26 +2,24 @@
 template: BlogPost
 path: /self-driving
 date: 2021-01-30T02:51:52.389Z
-summary: An app that helps to drive adoption of the inevitable rise of
-  self-driving vehicles.
+summary: >-
+  An app that helps to drive adoption of the inevitable rise of self-driving
+  vehicles.
 title: Customizing the Autonomous Vehicle Ride Experience
 duration: February 2020 - May 2020 (3 months)
-roles: Product designer, Design researcher
-projectabout: With the imminent rise of autonomous vehicles, how can we help
-  skeptics embrace this new mode of transportation?
+roles: 'Product designer, Design researcher'
+projectabout: '[to delete]'
 thumbnail: /assets/self-driving_hero-image.png
 ---
 # Overview
 
 Given a projected market size of USD 1.33 Billion by 2027, it seems like it's only a matter of time before autonomous vehicles hit the streets of the world.
 
-How might we help the general public to curb their skepticism and fear of riding a L5 autonomous vehicle? *\[note: L5 vehicles are fully automated with no steering wheels or pedals]*
+With the imminent rise of autonomous vehicles, how might we help the general public to curb their skepticism and fear of riding a L5 autonomous vehicle? *\[note: L5 vehicles are fully automated with no steering wheels or pedals]*
 
 Assumption/Constraint: Due to the timeframe of the project, I made the intentional decision to not involve the physical aspects of the car (e.g. did not explore what it'll be like to have a screen in the vehicle).
 
  → [Read the full case study here.](https://uofi.app.box.com/s/3ghovmtfyvjctg80dtc35u4sawiynyhd)
-
-
 
 # Approach
 
@@ -76,8 +74,6 @@ Braking was one of the This setting was designed for users to choose their prefe
 ![gif showing how the interactions to set following distances looks](/assets/self-driving_following-distance.gif)
 
 It is difficult to set a comfortable following distance in absolute units of measurement, as such, the distance is visually represented in terms of car lengths. This was inspired by my lessons on defensive driving in Singapore.
-
-
 
 \-
 
