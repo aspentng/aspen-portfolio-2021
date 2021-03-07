@@ -1,9 +1,9 @@
 ---
 template: BlogPost
-path: /govtech
+path: /ndi-singpass-app
 date: 2021-03-07T04:28:35.563Z
 summary: A summary of my work at GovTech so far.
-title: Product Design @ GovTech
+title: 'National Digital Identity, Singpass App'
 duration: September 2020 - Present
 roles: 'UX Designer, UI Designer'
 ---
