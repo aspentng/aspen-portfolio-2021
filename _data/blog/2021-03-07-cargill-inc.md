@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /cargill-2019
-date: 2021-03-07T07:32:20.011Z
+date: 2019-12-20T13:00:00.000Z
 summary: >-
   Inventory management platform for Cargill's feed manufacturing plants to
   better identify and keep track of their feed piles.
