@@ -53,8 +53,8 @@ export default () => (
                 <Link to="https://www.hive.tech.gov.sg/">
                   Government Technology Agency, Singapore
                 </Link>{" "}
-                working on{" "}
-                <Link to="https://app.singpass.gov.sg/">Singpass App</Link>, the
+                working on the{" "}
+                <Link to="https://app.singpass.gov.sg/">Singpass app</Link>, the
                 nation's digital identity platform for its citizens.
               </p>
               <p>
