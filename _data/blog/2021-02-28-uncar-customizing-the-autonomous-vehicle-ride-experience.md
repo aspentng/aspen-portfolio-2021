@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /self-driving
-date: 2021-05-16T02:51:52.389Z
+date: 2020-05-16T02:51:52.389Z
 summary: >-
   An app that helps to drive adoption of the inevitable rise of self-driving
   vehicles.
