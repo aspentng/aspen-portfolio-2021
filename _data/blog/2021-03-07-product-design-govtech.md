@@ -6,6 +6,7 @@ summary: An overview of my work at GovTech thus far.
 title: 'National Digital Identity, Singpass App'
 duration: September 2020 - Present
 roles: 'UX Designer, UI Designer'
+thumbnail: /assets/singpass.png
 ---
 Most of the projects that I'm currently undertaking are still ongoing and can't be shared publicly. I'll be happy to chat more about them, so please feel free to reach out.
 
