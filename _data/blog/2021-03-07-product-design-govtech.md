@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /ndi-singpass-app
-date: 2021-03-07T04:28:35.563Z
+date: 2021-03-08T12:00:00.000Z
 summary: An overview of my work at GovTech thus far.
 title: 'National Digital Identity, Singpass App'
 duration: September 2020 - Present
