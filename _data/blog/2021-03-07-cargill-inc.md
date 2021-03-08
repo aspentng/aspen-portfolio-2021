@@ -8,6 +8,7 @@ summary: >-
 title: 'Cargill, Inc.'
 duration: September 2019 - December 2019 (2.5 months)
 roles: 'UX Designer, UI Designer, UX Researcher'
+thumbnail: /assets/cargill.png
 ---
 Full details of this project can't be shared publicly due to NDA, but I'll be happy to chat about it, so please feel free to reach out.
 
