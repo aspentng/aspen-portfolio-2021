@@ -15,15 +15,11 @@ export default function Template({
         <title>
           {frontmatter.title} | {siteMetadata.title}
         </title>
-        <meta name="description" content={frontmatter.metaDescription} />
+        {/* <meta name="description" content={frontmatter.metaDescription} /> */}
       </Helmet>
       <div className="blog-post-container">
         <article className="post">
           {!!frontmatter.thumbnail && (
-            // <div
-            //   className="post-thumbnail"
-            //   style={{ backgroundImage: `url(${frontmatter.thumbnail})` }}
-            // />
             <div className="post-thumbnail">
               <img
                 src={frontmatter.thumbnail}
@@ -73,10 +69,8 @@ export const pageQuery = graphql`
         path
         title
         duration
-        projectabout
         roles
         thumbnail
-        metaDescription
       }
     }
   }
