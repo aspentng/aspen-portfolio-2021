@@ -4,7 +4,7 @@ path: /singpass-design-system
 date: 2021-02-26T08:00:00.000Z
 summary: Primary designer on the Singpass App design system.
 title: Singpass App Design System
-duration: November 2020 - Present
+duration: November 2020 - February 2021 (4 months) ; Ongoing
 roles: Primary designer
 ---
 I initiated and led this project to build a design system with robust foundation to support the growing team, and allow designers to contribute to it.
