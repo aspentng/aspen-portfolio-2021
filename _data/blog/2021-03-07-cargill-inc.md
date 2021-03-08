@@ -4,7 +4,7 @@ path: /cargill-2019
 date: 2019-12-20T13:00:00.000Z
 summary: >-
   Created an inventory management platform for Cargill's feed manufacturing
-  plants to better identify and keep track of their feed piles.
+  plants to more efficiently manage their feed piles.
 title: 'Cargill, Inc.'
 duration: September 2019 - December 2019 (2.5 months)
 roles: 'UX Designer, UI Designer, UX Researcher'
