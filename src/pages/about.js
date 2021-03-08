@@ -16,7 +16,7 @@ export default () => (
             }
           }
         }
-        picture: file(relativePath: { eq: "blog/test-image.jpg" }) {
+        picture: file(relativePath: { eq: "blog/profile-photo.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
@@ -36,7 +36,7 @@ export default () => (
         </Helmet>
         <div className="two-grids">
           <div className="post-thumbnail">
-            <Img fluid={data.picture.childImageSharp.fluid} alt="testing" />
+            <Img fluid={data.picture.childImageSharp.fluid} alt="profile photo" />
           </div>
 
           <div>
