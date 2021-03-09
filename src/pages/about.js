@@ -54,7 +54,7 @@ export default () => (
                   Government Technology Agency, Singapore
                 </Link>{" "}
                 working on the{" "}
-                <Link to="https://app.singpass.gov.sg/">Singpass app</Link>, the
+                <Link to="https://www.singpass.gov.sg/main">Singpass app</Link>, the
                 nation's digital identity platform for its citizens.
               </p>
               <p>
