@@ -3,10 +3,10 @@ template: BlogPost
 path: /self-driving
 date: 2020-05-16T02:51:52.389Z
 summary: >-
-  An app that helps to drive adoption of the inevitable rise of self-driving
+  An app that helps to curb skepticism of the inevitable rise of self-driving
   vehicles.
-title: Customizing the Autonomous Vehicle Ride Experience
-duration: February 2020 - May 2020 (3 months)
+title: Customizing Autonomous Vehicle Ride Experience
+duration: February 2020 - May 2020 (3.5 months)
 roles: 'Product designer, Design researcher'
 thumbnail: /assets/self-driving.png
 ---
@@ -36,7 +36,7 @@ Users want to maintain a level of control or feel like they are able to interven
 
 # Proposed Solution
 
-![image showing 4 screenshots of proposed design](/assets/self-driving_proposed-solution.png)
+![Image of 4 renders of the proposed design](/assets/self-driving_proposed-solution.png)
 
 An app that allows first-time riders (or seasoned riders) to customize their autonomous vehicle experience by setting certain preferences. 
 
@@ -48,31 +48,35 @@ Through research, I found that (1) maximum speed, (2) sudden increase or decreas
 
 ### Feature #1: Vehicle Actions + Emergency Stop
 
-![mockups showing vehicle actions and emergency button](/assets/self-driving_home-screen.png)
+![2 mockups showing vehicle actions and emergency button](/assets/self-driving_home-screen.png)
 
 The vehicle's actions are displayed on the top of the screen. There is also an emergency stop button. This button requires a swipe (rather than a typical tap) to prevent accidental triggers. This opens up a screen that now requires a simultaneous swiping of 2 buttons to stop the vehicle. 
 
-![mockup of screen with 2 sliders](/assets/self-driving_sliders.png)
+![Mockup of emergency stop screen with 2 sliders](/assets/self-driving_sliders.png)
 
 *\[note: accessibility was not full considered for this design, and will iterate on this in further exploration]*
 
 ### Feature #2: Customizing Maximum Speed
 
-![gif showing how the interaction to set maximum speed looks](/assets/self-driving_max-speed.gif)
+![Gif showing how the interaction to set maximum speed looks](/assets/self-driving_max-speed.gif)
 
 Here (and the rest of the customizations), I tried to use micro interaction and motion design to indicate immediate feedback by the app and the vehicle. This provides an additional level of assurance, which directly contributes to building trust.
 
 ### Feature #3: Acceleration & Braking
 
-![gif showing how the interactions to set comfort levels for acceleration and braking look](/assets/self-driving_braking-acceleration.gif)
+![Gif showing how the interactions to set comfort levels for acceleration and braking look](/assets/self-driving_braking-acceleration.gif)
 
 Braking was one of the This setting was designed for users to choose their preferences based on their feelings. The interface was inspired by the gear shift in vehicles today.
 
 ### Feature #4: Following Distance
 
-![gif showing how the interactions to set following distances looks](/assets/self-driving_following-distance.gif)
+![Gif showing how the interactions to set following distances looks](/assets/self-driving_following-distance.gif)
 
 It is difficult to set a comfortable following distance in absolute units of measurement, as such, the distance is visually represented in terms of car lengths. This was inspired by my lessons on defensive driving in Singapore.
+
+# Interactive Prototype
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLOpZFX9tfAuK83vcay6OVp%2FCustomizing-the-Autonomous-Vehicle-Experience%3Fnode-id%3D286%253A1260%26viewport%3D415%252C105%252C0.08533351123332977%26scaling%3Dscale-down" allowfullscreen></iframe>
 
 \-
 
