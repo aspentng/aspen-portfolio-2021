@@ -10,8 +10,6 @@ thumbnail: /assets/singpass-design-system.png
 ---
 I initiated and led this project to build a design system with robust foundation to support the growing team, and allow designers to contribute to it.
 
-
-
 # Background
 
 I joined as the 3rd designer on the team. During my onboarding, I had difficulty locating files and materials and had to frequently trouble my teammates. There were plans to make the product grow, which meant that the team would be looking to hire more designers. 
@@ -26,17 +24,13 @@ I initiated the idea and then led this project to create a design system which w
 
 (4) Have more transparent workflows and developer-handoff processes, to increase collaboration and working relationships with engineers.
 
-
-
-# Results/Reflections
+# Results / Next Steps
 
 I'm pleased to announce that the design system has been launched and is adopted by designers on their new projects. I would count this as both a personal and team success, but there is still lots to be done to improve the workflow and usability of the design system.
 
 Moving forward, I'll have to dedicate some time per a week to tidy up edge cases, work with designers on how to refine the system (based on their feedback), etc. Additionally, I want to create an even more collaborative workflow between designers and engineers to facilitate discussions and updates to components.
 
 My personal future plans for the design system is to advocate for it on a principles level. If you've any advice, please feel free to let me know!
-
-
 
 \-
 
