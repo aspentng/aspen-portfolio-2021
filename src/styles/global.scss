@@ -10,12 +10,13 @@ body {
 * {
   margin-top: 0;
 }
-h1, h3 {
+h1,
+h3 {
   margin-top: 32px;
   margin-bottom: 8px;
 }
 body.light {
-  --primary-color: #ff8a65;
+  --primary-color: #ff7043;
   --primary-text-color: #263238;
   --featured-bg: #c75b39;
   --featured-text: #fff;

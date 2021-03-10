@@ -31,7 +31,8 @@ export default () => (
             Previously, UX designer at{" "}
             <Link to="https://2020.hackillinois.org/">HackIllinois</Link> // UX
             design intern at{" "}
-            <Link to="https://innovation.cargill.com/">Cargill, Inc.</Link>
+            <Link to="https://innovation.cargill.com/">Cargill, Inc.</Link> 
+            {/* // Industrial design major at{" "} <Link to="https://illinois.edu">UIUC</Link>. */}
           </p>
         </div>
       </div>
