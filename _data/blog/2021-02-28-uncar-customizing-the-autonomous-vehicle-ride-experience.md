@@ -59,7 +59,7 @@ The vehicle's actions are displayed on the top of the screen. There is also an e
 
 ![Gif showing how the interaction to set maximum speed looks](/assets/self-driving_max-speed.gif)
 
-Here (and the rest of the customizations), I tried to use micro interaction and motion design to indicate immediate feedback by the app and the vehicle. This provides an additional level of assurance, which directly contributes to building trust.
+For this feature (and the rest of them), I experimented with micro interaction and motion design to indicate immediate feedback by the app and the vehicle. This provides an additional level of assurance, which directly contributes to building trust.
 
 ### Feature #3: Acceleration & Braking
 
