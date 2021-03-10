@@ -2,12 +2,11 @@
 template: BlogPost
 path: /self-driving
 date: 2020-05-16T02:51:52.389Z
-summary: >-
-  An app that helps to curb skepticism of the inevitable rise of self-driving
-  vehicles.
+summary: An app that helps to curb skepticism of the inevitable rise of
+  self-driving vehicles.
 title: Customizing Autonomous Vehicle Ride Experience
 duration: February 2020 - May 2020 (3.5 months)
-roles: 'Product designer, Design researcher'
+roles: Product designer, Design researcher
 thumbnail: /assets/self-driving.png
 ---
 # Overview
@@ -66,7 +65,7 @@ Here (and the rest of the customizations), I tried to use micro interaction and 
 
 ![Gif showing how the interactions to set comfort levels for acceleration and braking look](/assets/self-driving_braking-acceleration.gif)
 
-Braking was one of the This setting was designed for users to choose their preferences based on their feelings. The interface was inspired by the gear shift in vehicles today.
+People's preferences for braking and accelerating is difficult to quantify. As such, this setting was designed for users to set their preferences based on their feelings through trial and error. The interface was inspired by the gear shift in vehicles today.
 
 ### Feature #4: Following Distance
 
