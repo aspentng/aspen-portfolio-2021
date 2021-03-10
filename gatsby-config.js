@@ -51,7 +51,7 @@ module.exports = {
         short_name: `Aspen`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#ff8a65`,
+        theme_color: `#ff7043`,
         display: `standalone`,
         icon: "src/images/favicon.png",
       },
