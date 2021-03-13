@@ -12,7 +12,7 @@ thumbnail: /assets/singpass.png
 ---
 The [Singpass app](https://www.singpass.gov.sg/main) is Singapore's national digital identity platform with more than 2.5 million users. With this app, users are able to prove their identity and/or make secured transactions with over 340 government agencies and private sector services.
 
-Most of the projects that I'm currently undertaking are still ongoing and can't be shared publicly. I'll be happy to chat more about them, so please feel free to reach out.
+**My projects are expected to be shipped at the end of April 2021.** As such, they can't be shared publicly yet. I'll be happy to chat more about them, so please feel free to reach out.
 
 In the meantime, here's some of my highlights:
 
